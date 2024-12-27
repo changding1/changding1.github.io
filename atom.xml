@@ -6,7 +6,7 @@
   <link href="https://changding1.github.io/atom.xml" rel="self"/>
   
   <link href="https://changding1.github.io/"/>
-  <updated>2024-12-27T01:58:05.288Z</updated>
+  <updated>2024-12-27T02:05:41.393Z</updated>
   <id>https://changding1.github.io/</id>
   
   <author>
@@ -15,6 +15,34 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>定制独立服务器专属节点提交工单格式</title>
+    <link href="https://changding1.github.io/2024/12/27/ding-zhi-du-li-fu-wu-qi-zhuan-shu-jie-dian-ti-jiao-gong-dan-ge-shi/"/>
+    <id>https://changding1.github.io/2024/12/27/ding-zhi-du-li-fu-wu-qi-zhuan-shu-jie-dian-ti-jiao-gong-dan-ge-shi/</id>
+    <published>2024-12-27T02:03:03.000Z</published>
+    <updated>2024-12-27T02:05:41.393Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p style=&quot;font-family: &#39;楷体&#39;; font-size: 1.2em;&quot;&gt;
+&lt;b&gt;编辑 GUID：119c7baf-36a3-4082-b44f-cb05e0ee759e&lt;/b&gt;
+&lt;br&gt;
+&lt;b&gt;编辑 UTC 日期和时间:</summary>
+        
+      
+    
+    
+    
+    
+    <category term="工单格式" scheme="https://changding1.github.io/tags/%E5%B7%A5%E5%8D%95%E6%A0%BC%E5%BC%8F/"/>
+    
+    <category term="定制节点" scheme="https://changding1.github.io/tags/%E5%AE%9A%E5%88%B6%E8%8A%82%E7%82%B9/"/>
+    
+  </entry>
   
   <entry>
     <title>Affman邀请机制说明</title>
@@ -51,7 +79,7 @@
     <link href="https://changding1.github.io/2024/12/27/ding-zhi-jie-dian-ti-jiao-gong-dan-ge-shi/"/>
     <id>https://changding1.github.io/2024/12/27/ding-zhi-jie-dian-ti-jiao-gong-dan-ge-shi/</id>
     <published>2024-12-27T01:07:29.000Z</published>
-    <updated>2024-12-27T01:41:09.305Z</updated>
+    <updated>2024-12-27T02:04:38.999Z</updated>
     
     
       
@@ -70,7 +98,9 @@
     <category term="常定云机场" scheme="https://changding1.github.io/categories/%E5%B8%B8%E5%AE%9A%E4%BA%91%E6%9C%BA%E5%9C%BA/"/>
     
     
-    <category term="定制节点提交工单格式" scheme="https://changding1.github.io/tags/%E5%AE%9A%E5%88%B6%E8%8A%82%E7%82%B9%E6%8F%90%E4%BA%A4%E5%B7%A5%E5%8D%95%E6%A0%BC%E5%BC%8F/"/>
+    <category term="工单格式" scheme="https://changding1.github.io/tags/%E5%B7%A5%E5%8D%95%E6%A0%BC%E5%BC%8F/"/>
+    
+    <category term="定制节点" scheme="https://changding1.github.io/tags/%E5%AE%9A%E5%88%B6%E8%8A%82%E7%82%B9/"/>
     
   </entry>
   
