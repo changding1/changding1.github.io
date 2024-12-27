@@ -1,27 +1,27 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title>AHRTのblog</title>
+  <title>常定云のblog</title>
   
-  <subtitle>AHRT的百宝阁</subtitle>
-  <link href="https://kexue-aihao.github.io/atom.xml" rel="self"/>
+  <subtitle>常定云博客</subtitle>
+  <link href="https://changding1.github.io/atom.xml" rel="self"/>
   
-  <link href="https://kexue-aihao.github.io/"/>
-  <updated>2024-12-25T12:09:46.309Z</updated>
-  <id>https://kexue-aihao.github.io/</id>
+  <link href="https://changding1.github.io/"/>
+  <updated>2024-12-26T15:50:39.135Z</updated>
+  <id>https://changding1.github.io/</id>
   
   <author>
-    <name>落日与晚风</name>
+    <name>常定云</name>
     
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>蓝奏云网盘</title>
-    <link href="https://kexue-aihao.github.io/2024/12/25/lan-zou-yun-wang-pan/"/>
-    <id>https://kexue-aihao.github.io/2024/12/25/lan-zou-yun-wang-pan/</id>
-    <published>2024-12-25T10:23:28.000Z</published>
-    <updated>2024-12-25T12:09:46.309Z</updated>
+    <title>更新订阅显示无效的订阅</title>
+    <link href="https://changding1.github.io/2024/12/26/geng-xin-ding-yue-xian-shi-wu-xiao-de-ding-yue/"/>
+    <id>https://changding1.github.io/2024/12/26/geng-xin-ding-yue-xian-shi-wu-xiao-de-ding-yue/</id>
+    <published>2024-12-26T14:53:36.000Z</published>
+    <updated>2024-12-26T15:50:39.135Z</updated>
     
     
       
@@ -29,7 +29,7 @@
         
         
     <summary type="html">&lt;p style=&quot;font-family: &#39;楷体&#39;; font-size: 1.2em;&quot;&gt;
-&lt;b&gt;编辑 GUID：a78b10fb-1c62-443f-9b78-779199d0f3d7&lt;/b&gt;
+&lt;b&gt;编辑 GUID：ee5bb9b5-e0f6-412f-9f74-8c193a065cea&lt;/b&gt;
 &lt;br&gt;
 &lt;b&gt;编辑 UTC 日期和时间:</summary>
         
@@ -37,17 +37,21 @@
     
     
     
+    <category term="常定云机场" scheme="https://changding1.github.io/categories/%E5%B8%B8%E5%AE%9A%E4%BA%91%E6%9C%BA%E5%9C%BA/"/>
     
-    <category term="网盘安利" scheme="https://kexue-aihao.github.io/tags/%E7%BD%91%E7%9B%98%E5%AE%89%E5%88%A9/"/>
+    
+    <category term="最新官网地址" scheme="https://changding1.github.io/tags/%E6%9C%80%E6%96%B0%E5%AE%98%E7%BD%91%E5%9C%B0%E5%9D%80/"/>
+    
+    <category term="最新订阅域名" scheme="https://changding1.github.io/tags/%E6%9C%80%E6%96%B0%E8%AE%A2%E9%98%85%E5%9F%9F%E5%90%8D/"/>
     
   </entry>
   
   <entry>
-    <title>FastLink机场测评</title>
-    <link href="https://kexue-aihao.github.io/2024/12/25/fastlink-ji-chang-ce-ping/"/>
-    <id>https://kexue-aihao.github.io/2024/12/25/fastlink-ji-chang-ce-ping/</id>
-    <published>2024-12-25T08:26:56.000Z</published>
-    <updated>2024-12-25T09:34:30.941Z</updated>
+    <title>怎么绑定查询流量机器人</title>
+    <link href="https://changding1.github.io/2024/12/26/zen-me-bang-ding-cha-xun-liu-liang-ji-qi-ren/"/>
+    <id>https://changding1.github.io/2024/12/26/zen-me-bang-ding-cha-xun-liu-liang-ji-qi-ren/</id>
+    <published>2024-12-26T13:59:31.000Z</published>
+    <updated>2024-12-26T14:39:39.610Z</updated>
     
     
       
@@ -55,7 +59,7 @@
         
         
     <summary type="html">&lt;p style=&quot;font-family: &#39;楷体&#39;; font-size: 1.2em;&quot;&gt;
-&lt;b&gt;编辑 GUID：2fedb979-2055-4138-9aaa-6e087b005efb&lt;/b&gt;
+&lt;b&gt;编辑 GUID：c206171a-9b30-48c1-a6e2-3013d45b6ab9&lt;/b&gt;
 &lt;br&gt;
 &lt;b&gt;编辑 UTC 日期和时间:</summary>
         
@@ -63,468 +67,14 @@
     
     
     
-    <category term="机场" scheme="https://kexue-aihao.github.io/categories/%E6%9C%BA%E5%9C%BA/"/>
+    <category term="常定云机场教程" scheme="https://changding1.github.io/categories/%E5%B8%B8%E5%AE%9A%E4%BA%91%E6%9C%BA%E5%9C%BA%E6%95%99%E7%A8%8B/"/>
     
+    <category term="机场教程" scheme="https://changding1.github.io/categories/%E5%B8%B8%E5%AE%9A%E4%BA%91%E6%9C%BA%E5%9C%BA%E6%95%99%E7%A8%8B/%E6%9C%BA%E5%9C%BA%E6%95%99%E7%A8%8B/"/>
     
-    <category term="机场测评" scheme="https://kexue-aihao.github.io/tags/%E6%9C%BA%E5%9C%BA%E6%B5%8B%E8%AF%84/"/>
     
-    <category term="中转机场" scheme="https://kexue-aihao.github.io/tags/%E4%B8%AD%E8%BD%AC%E6%9C%BA%E5%9C%BA/"/>
+    <category term="Telegram机器人查询流量教程" scheme="https://changding1.github.io/tags/Telegram%E6%9C%BA%E5%99%A8%E4%BA%BA%E6%9F%A5%E8%AF%A2%E6%B5%81%E9%87%8F%E6%95%99%E7%A8%8B/"/>
     
-  </entry>
-  
-  <entry>
-    <title>世界云机场测评</title>
-    <link href="https://kexue-aihao.github.io/2024/12/25/shi-jie-yun-ji-chang-ce-ping/"/>
-    <id>https://kexue-aihao.github.io/2024/12/25/shi-jie-yun-ji-chang-ce-ping/</id>
-    <published>2024-12-25T06:33:17.000Z</published>
-    <updated>2024-12-25T06:57:26.968Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;p style=&quot;font-family: &#39;楷体&#39;; font-size: 1.2em;&quot;&gt;
-&lt;b&gt;编辑 GUID：321f69bb-d1e4-4b46-bfa7-64f6704e6f0e&lt;/b&gt;
-&lt;br&gt;
-&lt;b&gt;编辑 UTC 日期和时间:</summary>
-        
-      
-    
-    
-    
-    <category term="机场" scheme="https://kexue-aihao.github.io/categories/%E6%9C%BA%E5%9C%BA/"/>
-    
-    
-    <category term="机场测评" scheme="https://kexue-aihao.github.io/tags/%E6%9C%BA%E5%9C%BA%E6%B5%8B%E8%AF%84/"/>
-    
-    <category term="中转机场" scheme="https://kexue-aihao.github.io/tags/%E4%B8%AD%E8%BD%AC%E6%9C%BA%E5%9C%BA/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>yukaidi网盘</title>
-    <link href="https://kexue-aihao.github.io/2024/12/24/yukaidi-wang-pan/"/>
-    <id>https://kexue-aihao.github.io/2024/12/24/yukaidi-wang-pan/</id>
-    <published>2024-12-24T10:48:03.000Z</published>
-    <updated>2024-12-25T10:26:10.075Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;p style=&quot;font-family: &#39;楷体&#39;; font-size: 1.2em;&quot;&gt;
-&lt;b&gt;编辑 GUID：a25eb9cd-ba2f-4ac9-85fb-07cfaab75694&lt;/b&gt;
-&lt;br&gt;
-&lt;b&gt;编辑 UTC 日期和时间:</summary>
-        
-      
-    
-    
-    
-    
-    <category term="网盘安利" scheme="https://kexue-aihao.github.io/tags/%E7%BD%91%E7%9B%98%E5%AE%89%E5%88%A9/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>宏秋云资源大合集</title>
-    <link href="https://kexue-aihao.github.io/2024/12/23/hong-qiu-yun-zi-yuan-da-he-ji/"/>
-    <id>https://kexue-aihao.github.io/2024/12/23/hong-qiu-yun-zi-yuan-da-he-ji/</id>
-    <published>2024-12-23T07:05:50.000Z</published>
-    <updated>2024-12-25T08:22:45.862Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;p style=&quot;font-family: &#39;楷体&#39;; font-size: 1.2em;&quot;&gt;
-&lt;b&gt;编辑 GUID：8f210daf-6f82-4fb3-b3c8-6683ea99d5f4&lt;/b&gt;
-&lt;br&gt;
-&lt;b&gt;编辑 UTC 日期和时间:</summary>
-        
-      
-    
-    
-    
-    
-    <category term="宏秋云网盘" scheme="https://kexue-aihao.github.io/tags/%E5%AE%8F%E7%A7%8B%E4%BA%91%E7%BD%91%E7%9B%98/"/>
-    
-    <category term="资源分享" scheme="https://kexue-aihao.github.io/tags/%E8%B5%84%E6%BA%90%E5%88%86%E4%BA%AB/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>fil VPN机场</title>
-    <link href="https://kexue-aihao.github.io/2024/12/23/fil-vpn-ji-chang/"/>
-    <id>https://kexue-aihao.github.io/2024/12/23/fil-vpn-ji-chang/</id>
-    <published>2024-12-23T06:05:14.000Z</published>
-    <updated>2024-12-25T08:23:14.385Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;p style=&quot;font-family: &#39;楷体&#39;; font-size: 1.2em;&quot;&gt;
-&lt;b&gt;编辑 GUID：a9c3c9fb-3d1f-4f65-a095-55708d877869&lt;/b&gt;
-&lt;br&gt;
-&lt;b&gt;编辑 UTC 日期和时间:</summary>
-        
-      
-    
-    
-    
-    
-    <category term="机场测评" scheme="https://kexue-aihao.github.io/tags/%E6%9C%BA%E5%9C%BA%E6%B5%8B%E8%AF%84/"/>
-    
-    <category term="免费机场" scheme="https://kexue-aihao.github.io/tags/%E5%85%8D%E8%B4%B9%E6%9C%BA%E5%9C%BA/"/>
-    
-    <category term="直连机场" scheme="https://kexue-aihao.github.io/tags/%E7%9B%B4%E8%BF%9E%E6%9C%BA%E5%9C%BA/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>博客更新日志</title>
-    <link href="https://kexue-aihao.github.io/2024/12/23/bo-ke-geng-xin-ri-zhi/"/>
-    <id>https://kexue-aihao.github.io/2024/12/23/bo-ke-geng-xin-ri-zhi/</id>
-    <published>2024-12-23T01:28:07.000Z</published>
-    <updated>2024-12-26T08:09:17.187Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;hr&gt;
-&lt;p style=&quot;font-family: &#39;楷体&#39;; font-size: 1.2em;&quot;&gt;
-&lt;b&gt;编辑 GUID：2b9ec8d8-6df6-446c-a407-7bbd6bb702f8&lt;/b&gt;
-&lt;br&gt;
-&lt;b&gt;编辑 UTC 日期和时间:</summary>
-        
-      
-    
-    
-    
-    
-    <category term="更新日志" scheme="https://kexue-aihao.github.io/tags/%E6%9B%B4%E6%96%B0%E6%97%A5%E5%BF%97/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>NEX机场测评</title>
-    <link href="https://kexue-aihao.github.io/2024/12/22/nex-ji-chang-ce-ping/"/>
-    <id>https://kexue-aihao.github.io/2024/12/22/nex-ji-chang-ce-ping/</id>
-    <published>2024-12-22T13:23:34.000Z</published>
-    <updated>2024-12-25T08:20:58.377Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;p style=&quot;font-family: &#39;楷体&#39;; font-size: 1.2em;&quot;&gt;
-&lt;b&gt;编辑 GUID：a700da6c-c1c4-4c2c-b96a-e1e26d56eab3&lt;/b&gt;
-&lt;br&gt;
-&lt;b&gt;编辑 UTC 日期和时间:</summary>
-        
-      
-    
-    
-    
-    <category term="机场" scheme="https://kexue-aihao.github.io/categories/%E6%9C%BA%E5%9C%BA/"/>
-    
-    
-    <category term="机场测评" scheme="https://kexue-aihao.github.io/tags/%E6%9C%BA%E5%9C%BA%E6%B5%8B%E8%AF%84/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>宏秋云网盘上传加速教程</title>
-    <link href="https://kexue-aihao.github.io/2024/12/22/hong-qiu-yun-wang-pan-shang-chuan-jia-su-jiao-cheng/"/>
-    <id>https://kexue-aihao.github.io/2024/12/22/hong-qiu-yun-wang-pan-shang-chuan-jia-su-jiao-cheng/</id>
-    <published>2024-12-22T08:13:20.000Z</published>
-    <updated>2024-12-25T08:19:15.499Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;p style=&quot;font-family: &#39;楷体&#39;; font-size: 1.2em;&quot;&gt;
-&lt;b&gt;编辑 GUID：332b7c34-e943-489b-a03f-31708ca24a79&lt;/b&gt;
-&lt;br&gt;
-&lt;b&gt;编辑 UTC 日期和时间:</summary>
-        
-      
-    
-    
-    
-    
-    <category term="网盘上传加速教程" scheme="https://kexue-aihao.github.io/tags/%E7%BD%91%E7%9B%98%E4%B8%8A%E4%BC%A0%E5%8A%A0%E9%80%9F%E6%95%99%E7%A8%8B/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>宏秋云网盘</title>
-    <link href="https://kexue-aihao.github.io/2024/12/22/hong-qiu-yun-wang-pan/"/>
-    <id>https://kexue-aihao.github.io/2024/12/22/hong-qiu-yun-wang-pan/</id>
-    <published>2024-12-22T07:04:31.000Z</published>
-    <updated>2024-12-25T10:25:23.419Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;p style=&quot;font-family: &#39;楷体&#39;; font-size: 1.2em;&quot;&gt;
-&lt;b&gt;编辑 GUID：573a5c24-7ba2-43be-8e8c-917514c1a2e7&lt;/b&gt;
-&lt;br&gt;
-&lt;b&gt;编辑 UTC 日期和时间:</summary>
-        
-      
-    
-    
-    
-    
-    <category term="网盘安利" scheme="https://kexue-aihao.github.io/tags/%E7%BD%91%E7%9B%98%E5%AE%89%E5%88%A9/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>常定云机场究极节点玩法 Version2</title>
-    <link href="https://kexue-aihao.github.io/2024/12/13/chang-ding-yun-ji-chang-jiu-ji-jie-dian-wan-fa-version2/"/>
-    <id>https://kexue-aihao.github.io/2024/12/13/chang-ding-yun-ji-chang-jiu-ji-jie-dian-wan-fa-version2/</id>
-    <published>2024-12-13T12:40:05.000Z</published>
-    <updated>2024-12-13T16:13:01.368Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;p&gt;GUID：8307c68f-60ba-430d-bfda-06b8cb85e9df&lt;br&gt;UTC 日期和时间: 2024-12-13T14:15:33Z&lt;br&gt;UNIX 时间戳：1734099351&lt;/p&gt;
-&lt;h1&gt;&lt;center&gt;常定云机场究极节点玩法</summary>
-        
-      
-    
-    
-    
-    <category term="机场教程" scheme="https://kexue-aihao.github.io/categories/%E6%9C%BA%E5%9C%BA%E6%95%99%E7%A8%8B/"/>
-    
-    
-    <category term="常定云机场" scheme="https://kexue-aihao.github.io/tags/%E5%B8%B8%E5%AE%9A%E4%BA%91%E6%9C%BA%E5%9C%BA/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>禁止Windows 7 Windows Defender</title>
-    <link href="https://kexue-aihao.github.io/2024/12/08/jin-zhi-windows-7-windows-defender/"/>
-    <id>https://kexue-aihao.github.io/2024/12/08/jin-zhi-windows-7-windows-defender/</id>
-    <published>2024-12-08T09:13:42.000Z</published>
-    <updated>2024-12-08T09:39:39.846Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;p&gt;GUID：bdc6048f-f911-4272-a6b2-7f1ced36dbed&lt;br&gt;UTC 日期和时间: 2024-12-08T09:18:44Z&lt;br&gt;UNIX</summary>
-        
-      
-    
-    
-    
-    
-    <category term="系统知识分享" scheme="https://kexue-aihao.github.io/tags/%E7%B3%BB%E7%BB%9F%E7%9F%A5%E8%AF%86%E5%88%86%E4%BA%AB/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Windows 7 最终版镜像分享</title>
-    <link href="https://kexue-aihao.github.io/2024/12/07/windows-7-zui-zhong-ban-jing-xiang-fen-xiang/"/>
-    <id>https://kexue-aihao.github.io/2024/12/07/windows-7-zui-zhong-ban-jing-xiang-fen-xiang/</id>
-    <published>2024-12-07T11:36:46.000Z</published>
-    <updated>2024-12-18T07:46:47.673Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;p&gt;编辑 GUID：21fb53c0-de3d-4417-914f-88364cdf3a5c&lt;br&gt;编辑 UTC 日期和时间: 2024-12-18T07:46:42Z&lt;br&gt;编辑 UNIX 时间戳：1734508006&lt;/p&gt;
-&lt;center&gt;
-   </summary>
-        
-      
-    
-    
-    
-    
-    <category term="系统分享" scheme="https://kexue-aihao.github.io/tags/%E7%B3%BB%E7%BB%9F%E5%88%86%E4%BA%AB/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>高级 Windows 防火墙 - 本地 相关知识</title>
-    <link href="https://kexue-aihao.github.io/2024/12/07/gao-ji-windows-fang-huo-qiang-ben-di-xiang-guan-zhi-shi/"/>
-    <id>https://kexue-aihao.github.io/2024/12/07/gao-ji-windows-fang-huo-qiang-ben-di-xiang-guan-zhi-shi/</id>
-    <published>2024-12-07T06:15:08.000Z</published>
-    <updated>2024-12-07T06:19:18.500Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;p&gt;GUID：11041b1e-734c-4381-b400-08f0d91093f1&lt;br&gt;UTC 日期和时间: 2024-12-07 14:16:22&lt;br&gt;UNIX</summary>
-        
-      
-    
-    
-    
-    
-    <category term="系统知识分享" scheme="https://kexue-aihao.github.io/tags/%E7%B3%BB%E7%BB%9F%E7%9F%A5%E8%AF%86%E5%88%86%E4%BA%AB/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>如何阻止用户在连接共享打印机时安装打印机驱动程序</title>
-    <link href="https://kexue-aihao.github.io/2024/12/07/ru-he-zu-zhi-yong-hu-zai-lian-jie-gong-xiang-da-yin-ji-shi-an-zhuang-da-yin-ji-qu-dong-cheng-xu/"/>
-    <id>https://kexue-aihao.github.io/2024/12/07/ru-he-zu-zhi-yong-hu-zai-lian-jie-gong-xiang-da-yin-ji-shi-an-zhuang-da-yin-ji-qu-dong-cheng-xu/</id>
-    <published>2024-12-06T21:08:58.000Z</published>
-    <updated>2024-12-07T06:04:08.541Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;p&gt;GUID：6928af6a-c454-4108-a817-4db284749b5c&lt;br&gt;UTC 日期和时间: 2024-12-06T21:10:37Z&lt;br&gt;UNIX</summary>
-        
-      
-    
-    
-    
-    
-    <category term="系统知识分享" scheme="https://kexue-aihao.github.io/tags/%E7%B3%BB%E7%BB%9F%E7%9F%A5%E8%AF%86%E5%88%86%E4%BA%AB/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>如何提高系统的安全性-交互式登录</title>
-    <link href="https://kexue-aihao.github.io/2024/12/06/ru-he-ti-gao-xi-tong-de-an-quan-xing-jiao-hu-shi-deng-lu/"/>
-    <id>https://kexue-aihao.github.io/2024/12/06/ru-he-ti-gao-xi-tong-de-an-quan-xing-jiao-hu-shi-deng-lu/</id>
-    <published>2024-12-06T07:56:32.000Z</published>
-    <updated>2024-12-06T13:32:07.656Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;p&gt;GUID：730fbcb8-5d4b-4075-8526-74e059f90cef&lt;br&gt;UTC 日期和时间: 2024-12-06T13:14:17Z&lt;br&gt;UNIX</summary>
-        
-      
-    
-    
-    
-    
-    <category term="系统知识分享" scheme="https://kexue-aihao.github.io/tags/%E7%B3%BB%E7%BB%9F%E7%9F%A5%E8%AF%86%E5%88%86%E4%BA%AB/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>创建符号链接帮助说明</title>
-    <link href="https://kexue-aihao.github.io/2024/12/06/chuang-jian-fu-hao-lian-jie-bang-zhu-shuo-ming/"/>
-    <id>https://kexue-aihao.github.io/2024/12/06/chuang-jian-fu-hao-lian-jie-bang-zhu-shuo-ming/</id>
-    <published>2024-12-06T06:52:32.000Z</published>
-    <updated>2024-12-06T06:53:18.472Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;p&gt;GUID：feaff604-031a-4065-93ac-9c29b9ee8810&lt;br&gt;UTC 日期和时间: 2024-12-06T06:53:14Z&lt;br&gt;UNIX</summary>
-        
-      
-    
-    
-    
-    
-    <category term="系统知识分享" scheme="https://kexue-aihao.github.io/tags/%E7%B3%BB%E7%BB%9F%E7%9F%A5%E8%AF%86%E5%88%86%E4%BA%AB/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>为什么我要建博客</title>
-    <link href="https://kexue-aihao.github.io/2024/12/06/wei-shi-me-wo-yao-jian-bo-ke/"/>
-    <id>https://kexue-aihao.github.io/2024/12/06/wei-shi-me-wo-yao-jian-bo-ke/</id>
-    <published>2024-12-05T16:38:46.000Z</published>
-    <updated>2024-12-06T06:24:53.666Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;p&gt;GUID：fbe8a240-7b96-4a5d-933c-ee1e2dd58fd6&lt;br&gt;UTC 日期和时间: 2024-12-06T05:07:07Z&lt;br&gt;UNIX</summary>
-        
-      
-    
-    
-    
-    
-    <category term="随手发" scheme="https://kexue-aihao.github.io/tags/%E9%9A%8F%E6%89%8B%E5%8F%91/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>用户权限分配策略列表</title>
-    <link href="https://kexue-aihao.github.io/2024/12/06/yong-hu-quan-xian-fen-pei-ce-lue-lie-biao/"/>
-    <id>https://kexue-aihao.github.io/2024/12/06/yong-hu-quan-xian-fen-pei-ce-lue-lie-biao/</id>
-    <published>2024-12-05T16:37:22.000Z</published>
-    <updated>2024-12-06T05:00:05.865Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;p&gt;GUID：5eea8728-4190-4c78-b488-a557c81db30d&lt;br&gt;UTC 日期和时间: 2024-12-06T04:09:10Z&lt;br&gt;UNIX</summary>
-        
-      
-    
-    
-    
-    
-    <category term="系统知识分享" scheme="https://kexue-aihao.github.io/tags/%E7%B3%BB%E7%BB%9F%E7%9F%A5%E8%AF%86%E5%88%86%E4%BA%AB/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Windows 7 2024年10月份最终补丁分享</title>
-    <link href="https://kexue-aihao.github.io/2024/12/05/windows-7-2024-nian-10-yue-fen-zui-zhong-bu-ding-fen-xiang/"/>
-    <id>https://kexue-aihao.github.io/2024/12/05/windows-7-2024-nian-10-yue-fen-zui-zhong-bu-ding-fen-xiang/</id>
-    <published>2024-12-05T09:36:11.000Z</published>
-    <updated>2024-12-18T14:43:16.603Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;p&gt;编辑 GUID：9960a0a7-f884-4a7e-9097-37c1b267a60c&lt;br&gt;编辑 UTC 日期和时间: 2024-12-18T14:43:07Z&lt;br&gt;编辑 UNIX</summary>
-        
-      
-    
-    
-    
-    
-    <category term="系统知识分享" scheme="https://kexue-aihao.github.io/tags/%E7%B3%BB%E7%BB%9F%E7%9F%A5%E8%AF%86%E5%88%86%E4%BA%AB/"/>
+    <category term="绑定教程" scheme="https://changding1.github.io/tags/%E7%BB%91%E5%AE%9A%E6%95%99%E7%A8%8B/"/>
     
   </entry>
   
