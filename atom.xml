@@ -6,7 +6,7 @@
   <link href="https://changding1.github.io/atom.xml" rel="self"/>
   
   <link href="https://changding1.github.io/"/>
-  <updated>2024-12-27T01:41:09.305Z</updated>
+  <updated>2024-12-27T01:50:37.903Z</updated>
   <id>https://changding1.github.io/</id>
   
   <author>
@@ -15,6 +15,36 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Affman邀请机制说明</title>
+    <link href="https://changding1.github.io/2024/12/27/affman-yao-qing-ji-zhi-shuo-ming/"/>
+    <id>https://changding1.github.io/2024/12/27/affman-yao-qing-ji-zhi-shuo-ming/</id>
+    <published>2024-12-27T01:49:38.000Z</published>
+    <updated>2024-12-27T01:50:37.903Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p style=&quot;font-family: &#39;楷体&#39;; font-size: 1.2em;&quot;&gt;
+&lt;b&gt;编辑 GUID：cd7c684c-ecf3-4dac-bdda-ce5ea7743879&lt;/b&gt;
+&lt;br&gt;
+&lt;b&gt;编辑 UTC 日期和时间:</summary>
+        
+      
+    
+    
+    
+    <category term="常定云机场" scheme="https://changding1.github.io/categories/%E5%B8%B8%E5%AE%9A%E4%BA%91%E6%9C%BA%E5%9C%BA/"/>
+    
+    
+    <category term="邀请机制" scheme="https://changding1.github.io/tags/%E9%82%80%E8%AF%B7%E6%9C%BA%E5%88%B6/"/>
+    
+    <category term="Affman" scheme="https://changding1.github.io/tags/Affman/"/>
+    
+  </entry>
   
   <entry>
     <title>定制节点提交工单格式</title>
