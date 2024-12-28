@@ -501,7 +501,9 @@ WS（WebSocket）协议是一种在单个TCP连接上进行全双工通信的协
 <br><br>
 3. 协议的工作原理
 <br>
+<br>
 握手阶段：WebSocket协议以HTTP协议作为开始，客户端发送一个特殊的HTTP请求，其中包含了一些特殊的头部信息，如'Upgrade: websocket'和'Connection: Upgrade'用来告知服务器客户端希望升级协议到WebSocket。服务器收到请求后，如果支持WebSocket协议，会返回一个响应，完成握手过程。这个握手过程类似于在HTTP的基础上进行协议"升级"。
+<br>
 <br>
 数据传输阶段：握手成功后，通信双方就可以通过WebSocket连接进行全双工的数据传输。数据以帧（Frame）为单位进行发送和接收。WebSocket定义了多种类型的帧，包括文本帧（Text Frame）、二进制帧（Binary Frame）等，用于传输不同类型的数据。每个帧都有自己的格式，包括帧头（包含操作码、是否为最后一帧等信息）和帧负载（实际的数据内容）。
 <br>
