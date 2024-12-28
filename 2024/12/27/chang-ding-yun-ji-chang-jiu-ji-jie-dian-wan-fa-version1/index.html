@@ -411,14 +411,14 @@
                 
                 <div class="info-break-policy">
                     <i class="far fa-file-word fa-fw"></i>文章字数:&nbsp;&nbsp;
-                    2.3k
+                    2.8k
                 </div>
                 
 
                 
                 <div class="info-break-policy">
                     <i class="far fa-clock fa-fw"></i>阅读时长:&nbsp;&nbsp;
-                    8 分
+                    9 分
                 </div>
                 
 
@@ -570,27 +570,123 @@ TLS协议主要通过加密和认证机制来确保数据的保密性、完整�
 <br>
 网站安全访问（HTTPS）：
 <br>
+<br>
+这是TLS协议最常见的应用场景。当用户访问一个以“https://”开头的网站时，浏览器和网站服务器之间会建立TLS连接。例如，在网上银行网站中，用户需要输入账户信息、密码等敏感数据，TLS协议可以确保这些数据在传输过程中不被窃取或篡改。同时，TLS还能防止中间人攻击，保证用户确实是在和真实的银行网站服务器进行通信。
+<br>
+<br>
+电子邮件安全传输（S/MIME和STARTTLS）：
+<br>
+<br>
+在电子邮件系统中，TLS协议用于保护邮件内容的安全。例如，S/MIME（Secure/Multipurpose Internet Mail Extensions）是一种用于电子邮件加密和签名的标准，它依赖于TLS协议来确保邮件在传输过程中的安全。另外，在SMTP（Simple Mail Transfer Protocol）和IMAP（Internet Message Access Protocol）等邮件传输协议中，有一个STARTTLS命令，当客户端和服务器都支持时，可以在邮件传输过程中开启TLS连接，从而提高邮件传输的安全性。
+<br>
+<br>
+虚拟专用网络（VPN）：
+<br>
+<br>
+许多VPN服务使用TLS协议来确保用户通过公共网络（如互联网）连接到专用网络时的安全性。VPN客户端和服务器之间建立TLS连接，对传输的数据进行加密，使得用户在访问专用网络资源时，其数据不被外界窃取或干扰。例如，企业员工在外出差时，通过VPN连接到公司内部网络，TLS协议可以保障数据在公共网络上传输的安全性。
+<br>
+<br>
+物联网（IoT）安全通信：
+<br>
+<br>
+随着物联网设备的大量涌现，设备之间以及设备与服务器之间的安全通信变得至关重要。TLS协议可以用于确保物联网设备传输的数据，如智能传感器收集的环境数据、智能家居设备的控制指令等的安全性。例如，智能摄像头与云存储服务器之间通过TLS协议连接，可以防止视频数据被非法获取。
+<br>
 </p>
 
-<!-- <p>### 什么是TLS协议？
+<!-- <p>
+## 具体玩法
 
-3. TLS协议的应用场景
+### Mihomo-Party玩法
 
-网站安全访问（HTTPS）：
+1.**下载iptest批量端口版**
 
-这是TLS协议最常见的应用场景。当用户访问一个以“https://”开头的网站时，浏览器和网站服务器之间会建立TLS连接。例如，在网上银行网站中，用户需要输入账户信息、密码等敏感数据，TLS协议可以确保这些数据在传输过程中不被窃取或篡改。同时，TLS还能防止中间人攻击，保证用户确实是在和真实的银行网站服务器进行通信。
+[iptest批量端口版](https://github.com/kexue-aihao/changdingyun-Blog/releases/tag/iptest "iptest批量端口版")
 
-电子邮件安全传输（S/MIME和STARTTLS）：
+2.**将压缩包下载解压出来，然后打开iptest文件夹**
 
-在电子邮件系统中，TLS协议用于保护邮件内容的安全。例如，S/MIME（Secure/Multipurpose Internet Mail Extensions）是一种用于电子邮件加密和签名的标准，它依赖于TLS协议来确保邮件在传输过程中的安全。另外，在SMTP（Simple Mail Transfer Protocol）和IMAP（Internet Message Access Protocol）等邮件传输协议中，有一个STARTTLS命令，当客户端和服务器都支持时，可以在邮件传输过程中开启TLS连接，从而提高邮件传输的安全性。
+下载哪个压缩包都是一样的，只不过压缩的格式不同而已
 
-虚拟专用网络（VPN）：
+![image](https://github.com/kexue-aihao/changdingyun-Blog/blob/master/picture/%E5%B8%B8%E5%AE%9A%E4%BA%91%E6%9C%BA%E5%9C%BA%E7%A9%B6%E6%9E%81%E8%8A%82%E7%82%B9%E7%8E%A9%E6%B3%95/1.png?raw=true)
 
-许多VPN服务使用TLS协议来确保用户通过公共网络（如互联网）连接到专用网络时的安全性。VPN客户端和服务器之间建立TLS连接，对传输的数据进行加密，使得用户在访问专用网络资源时，其数据不被外界窃取或干扰。例如，企业员工在外出差时，通过VPN连接到公司内部网络，TLS协议可以保障数据在公共网络上传输的安全性。
+3.**打开文件夹后，如下图所示，打开红色箭头指着的 IP.txt 文本文件**
 
-物联网（IoT）安全通信：
+![image](https://github.com/kexue-aihao/changdingyun-Blog/blob/master/picture/%E5%B8%B8%E5%AE%9A%E4%BA%91%E6%9C%BA%E5%9C%BA%E7%A9%B6%E6%9E%81%E8%8A%82%E7%82%B9%E7%8E%A9%E6%B3%95/2.png?raw=true)
 
-随着物联网设备的大量涌现，设备之间以及设备与服务器之间的安全通信变得至关重要。TLS协议可以用于确保物联网设备传输的数据，如智能传感器收集的环境数据、智能家居设备的控制指令等的安全性。例如，智能摄像头与云存储服务器之间通过TLS协议连接，可以防止视频数据被非法获取。
+4.**打开文本文件夹后，如下图所示，按照下图的格式来填写IP和端口，填写完成后保存即可**
+
+![image](https://github.com/kexue-aihao/changdingyun-Blog/blob/master/picture/%E5%B8%B8%E5%AE%9A%E4%BA%91%E6%9C%BA%E5%9C%BA%E7%A9%B6%E6%9E%81%E8%8A%82%E7%82%B9%E7%8E%A9%E6%B3%95/3.png?raw=true)
+
+5.**完成IP文本文件的填写之后，往下滑，找到测速的程序，如下图所示**
+
+如果你的电脑系统是Windows操作系统，且系统操作位数是64bit的话，选择Windows-amd64的测速程序即可测速，测速完成后，会在当前文件夹生成一个IP.csv的文件，用Excel程序或者记事本程序打开，将IP和端口号记录下来
+
+![image](https://github.com/kexue-aihao/changdingyun-Blog/blob/master/picture/%E5%B8%B8%E5%AE%9A%E4%BA%91%E6%9C%BA%E5%9C%BA%E7%A9%B6%E6%9E%81%E8%8A%82%E7%82%B9%E7%8E%A9%E6%B3%95/4.png?raw=true)
+
+6.**打开Mihomo-Party**
+
+7.**按照下图所示，点击配置文件的三个点，然后选择编辑文件**
+
+![image](https://github.com/kexue-aihao/changdingyun-Blog/blob/master/picture/%E5%B8%B8%E5%AE%9A%E4%BA%91%E6%9C%BA%E5%9C%BA%E7%A9%B6%E6%9E%81%E8%8A%82%E7%82%B9%E7%8E%A9%E6%B3%95/5.png?raw=true)
+
+8.**将IP.csv里的IP和端口复制出来，然后在yaml配置文件里面修改server和port，然后点击确定保存即可**
+
+![image](https://github.com/kexue-aihao/changdingyun-Blog/blob/master/picture/%E5%B8%B8%E5%AE%9A%E4%BA%91%E6%9C%BA%E5%9C%BA%E7%A9%B6%E6%9E%81%E8%8A%82%E7%82%B9%E7%8E%A9%E6%B3%95/8.png?raw=true)
+
+### V2rayN玩法
+
+1.**下载iptest批量端口版**
+
+[iptest批量端口版](https://github.com/kexue-aihao/changdingyun-Blog/releases/tag/iptest "iptest批量端口版")
+
+2.**将压缩包下载解压出来，然后打开iptest文件夹**
+
+下载哪个压缩包都是一样的，只不过压缩的格式不同而已
+
+![image](https://github.com/kexue-aihao/changdingyun-Blog/blob/master/picture/%E5%B8%B8%E5%AE%9A%E4%BA%91%E6%9C%BA%E5%9C%BA%E7%A9%B6%E6%9E%81%E8%8A%82%E7%82%B9%E7%8E%A9%E6%B3%95/1.png?raw=true)
+
+3.**打开文件夹后，如下图所示，打开红色箭头指着的 IP.txt 文本文件**
+
+![image](https://github.com/kexue-aihao/changdingyun-Blog/blob/master/picture/%E5%B8%B8%E5%AE%9A%E4%BA%91%E6%9C%BA%E5%9C%BA%E7%A9%B6%E6%9E%81%E8%8A%82%E7%82%B9%E7%8E%A9%E6%B3%95/2.png?raw=true)
+
+4.**打开文本文件夹后，如下图所示，按照下图的格式来填写IP和端口，填写完成后保存即可**
+
+![image](https://github.com/kexue-aihao/changdingyun-Blog/blob/master/picture/%E5%B8%B8%E5%AE%9A%E4%BA%91%E6%9C%BA%E5%9C%BA%E7%A9%B6%E6%9E%81%E8%8A%82%E7%82%B9%E7%8E%A9%E6%B3%95/3.png?raw=true)
+
+5.**完成IP文本文件的填写之后，往下滑，找到测速的程序，如下图所示**
+
+如果你的电脑系统是Windows操作系统，且系统操作位数是64bit的话，选择Windows-amd64的测速程序即可测速，测速完成后，会在当前文件夹生成一个IP.csv的文件，用Excel程序或者记事本程序打开，将IP和端口号记录下来
+
+![image](https://github.com/kexue-aihao/changdingyun-Blog/blob/master/picture/%E5%B8%B8%E5%AE%9A%E4%BA%91%E6%9C%BA%E5%9C%BA%E7%A9%B6%E6%9E%81%E8%8A%82%E7%82%B9%E7%8E%A9%E6%B3%95/4.png?raw=true)
+
+6.**打开V2rayN**
+
+7.**右键单击选中的节点，选中编辑服务器**
+
+![image](https://github.com/kexue-aihao/changdingyun-Blog/blob/master/picture/%E5%B8%B8%E5%AE%9A%E4%BA%91%E6%9C%BA%E5%9C%BA%E7%A9%B6%E6%9E%81%E8%8A%82%E7%82%B9%E7%8E%A9%E6%B3%95/6.png?raw=true)
+
+8.**打开服务器编辑页面之后，将IP.csv里的IP和端口复制出来，然后分别填写到地址和端口那里，然后点确定保存即可**
+
+![image](https://github.com/kexue-aihao/changdingyun-Blog/blob/master/picture/%E5%B8%B8%E5%AE%9A%E4%BA%91%E6%9C%BA%E5%9C%BA%E7%A9%B6%E6%9E%81%E8%8A%82%E7%82%B9%E7%8E%A9%E6%B3%95/7.png?raw=true)
+
+**IP以及端口可以从下方地址下载相应文件**
+
+**AS16509**
+
+**AS31898**
+
+**AS45102**
+
+**IATA:HKG**
+
+**IATA:SIN**
+
+**IATA:NRT**
+
+[IP以及端口数据下载地址](https://github.com/kexue-aihao/changdingyun-Blog/releases/tag/ASIATA "IP以及端口数据下载地址")
+
+- 评论系统评论只需要填写昵称和邮箱即可发表评论，网址如果有也可以填写
+
+- 任何人评论都要对自己的言论负责，评论区不是法外之地
 </p> -->
 
 <hr>
@@ -1048,7 +1144,7 @@ Bug反馈例子 Markdown 源码
             <br>
             
                 &nbsp;<i class="fas fa-chart-area"></i>&nbsp;站点总字数:&nbsp;<span
-                        class="white-color">4.5k</span>
+                        class="white-color">5.1k</span>
             
             
             
