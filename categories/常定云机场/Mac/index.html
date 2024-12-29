@@ -4,8 +4,8 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="keywords" content="V2rayN 使用教程, 常定云">
-    <meta name="description" content="V2rayN">
+    <meta name="keywords" content="分类: Mac, 常定云">
+    <meta name="description" content="常定云机场">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
     <meta name="renderer" content="webkit|ie-stand|ie-comp">
@@ -17,7 +17,7 @@
     <!-- Global site tag (gtag.js) - Google Analytics -->
 
 
-    <title>V2rayN 使用教程 | 常定云のblog</title>
+    <title>分类: Mac | 常定云のblog</title>
     <link rel="icon" type="image/png" href="/favicon.png">
     
 
@@ -329,573 +329,187 @@
 
 </header>
 
-    
-<script src="/libs/cryptojs/crypto-js.min.js"></script>
+    <div class="bg-cover pd-header about-cover">
+    <div class="container">
+    <div class="row">
+    <div class="col s10 offset-s1 m8 offset-m2 l8 offset-l2">
+        <div class="brand">
+            <div class="title center-align">
+                
+                常定云博客
+                
+            </div>
+
+            <div class="description center-align">
+                
+                <span id="subtitle"></span>
+                <script src="/libs/typed/typed.js"></script>
+                <script>
+                    var typed = new Typed("#subtitle", {
+                        strings: [ 
+                            
+                                "常定云机场",
+                            
+                                "chang ding cloud Airport",
+                            
+                        ],
+                        startDelay: 300,
+                        typeSpeed: 100,
+                        loop: true,
+                        backSpeed: 50,
+                        showCursor: true
+                    });
+                </script>
+                
+            </div>
+        </div>
+    </div>
+</div>
+
+
 <script>
-    (function() {
-        let pwd = '';
-        if (pwd && pwd.length > 0) {
-            if (pwd !== CryptoJS.SHA256(prompt('请输入访问本文章的密码')).toString(CryptoJS.enc.Hex)) {
-                alert('密码错误，将返回主页！');
-                location.href = '/';
-            }
-        }
-    })();
+    $('.bg-cover').css('background-image', 'url(/medias/banner/1.jpg)');
 </script>
 
 
+    </div>
+</div>
 
+<main class="content">
 
-<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/10.png')">
-    <div class="container" style="right: 0px;left: 0px;">
-        <div class="row">
-            <div class="col s12 m12 l12">
-                <div class="brand">
-                    <h1 class="description center-align post-title">V2rayN 使用教程</h1>
-                </div>
+    
+
+<div id="category-cloud" class="container chip-container">
+    <div class="card">
+        <div class="card-content">
+            <div class="tag-title center-align">
+                <i class="fas fa-bookmark"></i>&nbsp;&nbsp;文章分类
+            </div>
+            <div class="tag-chips">
+                
+                
+                
+                <a href="/categories/%E5%B8%B8%E5%AE%9A%E4%BA%91%E6%9C%BA%E5%9C%BA/" title="常定云机场: 26">
+                    <span class="chip center-align waves-effect waves-light
+                             chip-default "
+                            style="background-color: #F9EBEA;">常定云机场
+                        <span class="tag-length">26</span>
+                    </span>
+                </a>
+                
+                
+                <a href="/categories/%E5%B8%B8%E5%AE%9A%E4%BA%91%E6%9C%BA%E5%9C%BA/%E6%9C%BA%E5%9C%BA%E6%95%99%E7%A8%8B/" title="机场教程: 3">
+                    <span class="chip center-align waves-effect waves-light
+                             chip-default "
+                            style="background-color: #F5EEF8;">机场教程
+                        <span class="tag-length">3</span>
+                    </span>
+                </a>
+                
+                
+                <a href="/categories/%E5%B8%B8%E5%AE%9A%E4%BA%91%E6%9C%BA%E5%9C%BA/Android/" title="Android: 9">
+                    <span class="chip center-align waves-effect waves-light
+                             chip-default "
+                            style="background-color: #D5F5E3;">Android
+                        <span class="tag-length">9</span>
+                    </span>
+                </a>
+                
+                
+                <a href="/categories/%E5%B8%B8%E5%AE%9A%E4%BA%91%E6%9C%BA%E5%9C%BA/Windows/" title="Windows: 9">
+                    <span class="chip center-align waves-effect waves-light
+                             chip-default "
+                            style="background-color: #E8F8F5;">Windows
+                        <span class="tag-length">9</span>
+                    </span>
+                </a>
+                
+                
+                <a href="/categories/%E5%B8%B8%E5%AE%9A%E4%BA%91%E6%9C%BA%E5%9C%BA/IOS/" title="IOS: 1">
+                    <span class="chip center-align waves-effect waves-light
+                             chip-default "
+                            style="background-color: #FEF9E7;">IOS
+                        <span class="tag-length">1</span>
+                    </span>
+                </a>
+                
+                
+                <a href="/categories/%E5%B8%B8%E5%AE%9A%E4%BA%91%E6%9C%BA%E5%9C%BA/Mac/" title="Mac: 1">
+                    <span class="chip center-align waves-effect waves-light
+                             chip-active "
+                            style="background-color: #F8F9F9;">Mac
+                        <span class="tag-length">1</span>
+                    </span>
+                </a>
+                
+                
             </div>
         </div>
     </div>
 </div>
 
 
-
-
-<main class="container content">
-
     
-    <!-- 文章内容详情 -->
-<div id="artDetail">
-    <div class="card">
-        <div class="card-content article-info">
-            <div class="row tag-cate">
-                <div class="col s7">
-                    
-                    <div class="article-tag">
-                        
-                            <a href="/tags/%E4%BB%A3%E7%90%86%E8%BD%AF%E4%BB%B6/">
-                                <span class="chip bg-color">代理软件</span>
-                            </a>
-                        
-                            <a href="/tags/Windows%E4%BB%A3%E7%90%86%E8%BD%AF%E4%BB%B6%E4%BD%BF%E7%94%A8%E6%95%99%E7%A8%8B/">
-                                <span class="chip bg-color">Windows代理软件使用教程</span>
-                            </a>
-                        
-                    </div>
-                    
-                </div>
-                <div class="col s5 right-align">
-                    
-                    <div class="post-cate">
-                        <i class="fas fa-bookmark fa-fw icon-category"></i>
-                        
-                            <a href="/categories/%E5%B8%B8%E5%AE%9A%E4%BA%91%E6%9C%BA%E5%9C%BA/" class="post-category">
-                                常定云机场
-                            </a>
-                        
-                            <a href="/categories/%E5%B8%B8%E5%AE%9A%E4%BA%91%E6%9C%BA%E5%9C%BA/Windows/" class="post-category">
-                                Windows
-                            </a>
-                        
-                    </div>
-                    
-                </div>
-            </div>
 
-            <div class="post-info">
-                
-                <div class="post-date info-break-policy">
-                    <i class="far fa-calendar-minus fa-fw"></i>发布日期:&nbsp;&nbsp;
-                    2024-12-28
-                </div>
-                
-
-                
-
-                
-                <div class="info-break-policy">
-                    <i class="far fa-file-word fa-fw"></i>文章字数:&nbsp;&nbsp;
-                    559
-                </div>
-                
-
-                
-                <div class="info-break-policy">
-                    <i class="far fa-clock fa-fw"></i>阅读时长:&nbsp;&nbsp;
-                    2 分
-                </div>
-                
-
-                
-                    <div id="busuanzi_container_page_pv" class="info-break-policy">
-                        <i class="far fa-eye fa-fw"></i>阅读次数:&nbsp;&nbsp;
-                        <span id="busuanzi_value_page_pv"></span>
-                    </div>
-				
-            </div>
-        </div>
-        <hr class="clearfix">
-
-        
-        <!-- 是否加载使用自带的 prismjs. -->
-        <link rel="stylesheet" href="/libs/prism/prism.min.css">
-        
-
-        
-        <!-- 代码块折行 -->
-        <style type="text/css">
-            code[class*="language-"], pre[class*="language-"] { white-space: pre-wrap !important; }
-        </style>
-        
-
-        <div class="card-content article-card-content">
-            <div id="articleContent">
-                <p style="font-family: '楷体'; font-size: 1.2em;">
-<b>编辑 GUID：f223f42b-fa50-4d48-ad6a-bf797e3d60cb</b>
-<br>
-<b>编辑 UTC 日期和时间: 2024-12-29T02:15:38Z</b>
-<br>
-<b>编辑 UNIX 时间戳：1735438542</b>
-<br>
-<br>
-</p>
-
-<hr>
-<p style="font-family: '楷体'; font-size: 1.2em;">
-<b>V2rayN</b>
-<br><br>
-<br>
-V2rayN 软件图标预览图:
-<br>
-<img src="https://github.com/kexue-aihao/changdingyun-Blog/blob/master/picture/%E4%B8%AD%E6%96%87%E7%89%88%E6%9C%BA%E5%9C%BA%E5%B8%AE%E5%8A%A9%E6%96%87%E6%A1%A3/95.png?raw=true" alt="NekoBox for Windows 软件图标预览图">
-</p><blockquote>
-    如上图所示，红色方框中的就是 V2rayN 的软件图标
-</blockquote>
-<p></p>
-
-<p style="font-family: '楷体'; font-size: 1.2em;">
-V2rayN 软件内部界面预览图:
-<br>
-<img src="https://github.com/kexue-aihao/changdingyun-Blog/blob/master/picture/%E4%B8%AD%E6%96%87%E7%89%88%E6%9C%BA%E5%9C%BA%E5%B8%AE%E5%8A%A9%E6%96%87%E6%A1%A3/96.png?raw=true" alt="V2rayN 软件内部界面预览图">
-<br>
-使用操作步骤:
-<br>
-1.打开订阅分组，选择订阅分组设置
-<br>
-<img src="https://github.com/kexue-aihao/changdingyun-Blog/blob/master/picture/%E4%B8%AD%E6%96%87%E7%89%88%E6%9C%BA%E5%9C%BA%E5%B8%AE%E5%8A%A9%E6%96%87%E6%A1%A3/97.png?raw=true" alt="步骤一">
-<br>
-2.选择订阅分组设置之后，如下图所示，点击红色方框中的添加
-<br>
-<img src="https://github.com/kexue-aihao/changdingyun-Blog/blob/master/picture/%E4%B8%AD%E6%96%87%E7%89%88%E6%9C%BA%E5%9C%BA%E5%B8%AE%E5%8A%A9%E6%96%87%E6%A1%A3/98.png?raw=true" alt="步骤二">
-<br>
-3.点击添加之后，如下图所示，在别名这里输入你对机场的备注，在可选地址[url]这里粘贴从机场官网上复制的订阅链接，粘贴到这里，然后点击下方的确定，保存订阅
-<br>
-<img src="https://github.com/kexue-aihao/changdingyun-Blog/blob/master/picture/%E4%B8%AD%E6%96%87%E7%89%88%E6%9C%BA%E5%9C%BA%E5%B8%AE%E5%8A%A9%E6%96%87%E6%A1%A3/99.png?raw=true" alt="步骤三">
-<br>
-4.保存好订阅之后，如下图所示，选择更新当前订阅(不通过代理即可)，如果是订阅地址被墙了的话，这里则需要选择下面那个更新当前订阅(通过代理)
-<br>
-<img src="https://github.com/kexue-aihao/changdingyun-Blog/blob/master/picture/%E4%B8%AD%E6%96%87%E7%89%88%E6%9C%BA%E5%9C%BA%E5%B8%AE%E5%8A%A9%E6%96%87%E6%A1%A3/100.png?raw=true" alt="步骤四">
-<br>
-5.更新好订阅后，如下图所示
-<br>
-<img src="https://github.com/kexue-aihao/changdingyun-Blog/blob/master/picture/%E4%B8%AD%E6%96%87%E7%89%88%E6%9C%BA%E5%9C%BA%E5%B8%AE%E5%8A%A9%E6%96%87%E6%A1%A3/101.png?raw=true" alt="更新好订阅的图例">
-<br>
-6.Ctrl+A全选所有节点，然后单击右键，然后选择测试服务器真链接延迟，测完之后，只需要选择有延迟的节点使用即可
-<br>
-<img src="https://github.com/kexue-aihao/changdingyun-Blog/blob/master/picture/%E4%B8%AD%E6%96%87%E7%89%88%E6%9C%BA%E5%9C%BA%E5%B8%AE%E5%8A%A9%E6%96%87%E6%A1%A3/102.png?raw=true" alt="步骤五">
-</p>
-
-<hr>
-<br>
-<p style="font-family:'楷体';font-size:1.2em;">
-<b>
-• 博客评论系统使用的是GitHub的issus，用户评论只需要登录你的GitHub账号即可评论
-</b>
-<br><br>
-<b>
-• 博客文章，可以直接在评论区进行相关的评论
-</b>
-<br><br>
-<b>
-• 博客文章，如果需要进一步交流讨论的，可以加入Telegram频道以及Telegram群组
-</b>
-</p>
-<br>
-
-<br>
-<p style="font-family: '楷体'; font-size: 1.8em;">
-<b>Telegram群组[点击下方链接即可跳转Telegram群组页面]</b>
-</p>
-<br>
-
-<p><a target="_blank" rel="noopener" href="https://t.me/changdingyun">常定云机场交流群</a></p>
-<br>
-<p style="font-family: '楷体'; font-size: 1.8em;">
-<b>Telegram频道[点击下方链接即可跳转Telegram频道页面]</b>
-</p>
-<br>
-
-<p><a target="_blank" rel="noopener" href="https://t.me/changdingcloud">常定云机场频道</a></p>
-<br>
-<p style="font-family: '楷体'; font-size: 1.8em;">
-<b>文章Bug反馈</b>
-</p>
-<br>
-
-<p><a target="_blank" rel="noopener" href="https://github.com/changding1/changding1.github.io/issues">文章Bug反馈</a></p>
-<br>
-<p style="font-family:'楷体';font-size:1.2em;">
-<b>
-• 对文章提出Bug可以点击上方链接进行Bug反馈的直达，如果不会参照Bug反馈格式例子自己编写Markdown代码的话，可以复制下面提供的代码进行Bug的提交，只有在按照Bug反馈格式进行提交的Bug才会进行处理，否则不处理
-</b>
-<br>
-
-
-
-
-
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>GitHub代码块预览示例</title>
-    <!-- 引入highlight.js核心库 -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/highlight.min.js"></script>
-    <!-- 引入JavaScript语言的语法高亮插件（这里以JavaScript为例，可按需添加其他语言） -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/languages/javascript.min.js"></script>
-    <!-- 引入用于模拟GitHub代码块样式的CSS文件 -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github.min.css">
-    <!-- 引入显示行号的样式文件（可选，但能让效果更接近GitHub） -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/atom-one-dark.min.css">
-
-
-
-    </p><p style="font-family: '楷体'; font-size: 1.2em;">
-Bug反馈例子 Markdown 源码
-    </p>
-    <pre><code class="language-md">
-|Bug名称|Bug链接指向|Bug严重性|Bug是否已修复|
-|-|-|-|-|
-|-|-|-|-|
-    </code></pre>
-    <script>
-        hljs.initHighlightingOnLoad();
-    </script>
-
-
-
-                
-            </div>
-            <hr/>
-
+    <article id="articles" class="container articles">
+        <div class="row tags-posts">
             
-
-    <div class="reprint" id="reprint-statement">
-        
-            <div class="reprint__author">
-                <span class="reprint-meta" style="font-weight: bold;">
-                    <i class="fas fa-user">
-                        文章作者:
-                    </i>
-                </span>
-                <span class="reprint-info">
-                    <a href="/about" rel="external nofollow noreferrer">常定云</a>
-                </span>
-            </div>
-            <div class="reprint__type">
-                <span class="reprint-meta" style="font-weight: bold;">
-                    <i class="fas fa-link">
-                        文章链接:
-                    </i>
-                </span>
-                <span class="reprint-info">
-                    <a href="https://changding1.github.io/2024/12/28/v2rayn-shi-yong-jiao-cheng/">https://changding1.github.io/2024/12/28/v2rayn-shi-yong-jiao-cheng/</a>
-                </span>
-            </div>
-            <div class="reprint__notice">
-                <span class="reprint-meta" style="font-weight: bold;">
-                    <i class="fas fa-copyright">
-                        版权声明:
-                    </i>
-                </span>
-                <span class="reprint-info">
-                    本博客所有文章除特別声明外，均采用
-                    <a href="https://creativecommons.org/licenses/by/4.0/deed.zh" rel="external nofollow noreferrer" target="_blank">CC BY 4.0</a>
-                    许可协议。转载请注明来源
-                    <a href="/about" target="_blank">常定云</a>
-                    !
-                </span>
-            </div>
-        
-    </div>
-
-    <script async defer>
-      document.addEventListener("copy", function (e) {
-        let toastHTML = '<span>复制成功，请遵循本文的转载规则</span><button class="btn-flat toast-action" onclick="navToReprintStatement()" style="font-size: smaller">查看</a>';
-        M.toast({html: toastHTML})
-      });
-
-      function navToReprintStatement() {
-        $("html, body").animate({scrollTop: $("#reprint-statement").offset().top - 80}, 800);
-      }
-    </script>
-
-
-
-            <div class="tag_share" style="display: block;">
-                <div class="post-meta__tag-list" style="display: inline-block;">
-                    
-                        <div class="article-tag">
+            <div class="article tag-post col s12 m6 l4" data-aos="zoom-in">
+                <div class="card">
+                    <a href="/2024/12/28/mac-ruan-jian-xia-zai-di-zhi/">
+                        <div class="card-image tag-image">
                             
-                                <a href="/tags/%E4%BB%A3%E7%90%86%E8%BD%AF%E4%BB%B6/">
-                                    <span class="chip bg-color">代理软件</span>
-                                </a>
                             
-                                <a href="/tags/Windows%E4%BB%A3%E7%90%86%E8%BD%AF%E4%BB%B6%E4%BD%BF%E7%94%A8%E6%95%99%E7%A8%8B/">
-                                    <span class="chip bg-color">Windows代理软件使用教程</span>
-                                </a>
+                            <img src="/medias/featureimages/19.png" class="responsive-img" alt="Mac软件下载地址">
+                            
+                            <span class="card-title">Mac软件下载地址</span>
+                        </div>
+                    </a>
+                    <div class="card-content article-content">
+                        <div class="summary block-with-text">
+                            
+                                Mac软件
                             
                         </div>
-                    
-                </div>
-                <div class="post_share" style="zoom: 80%; width: fit-content; display: inline-block; float: right; margin: -0.15rem 0;">
-                    <link rel="stylesheet" type="text/css" href="/libs/share/css/share.min.css">
-<div id="article-share">
-
-    
-    <div class="social-share" data-sites="twitter,facebook,google,qq,qzone,wechat,weibo,douban,linkedin" data-wechat-qrcode-helper="<p>微信扫一扫即可分享！</p>"></div>
-    <script src="/libs/share/js/social-share.min.js"></script>
-    
-
-    
-
-</div>
-
-                </div>
-            </div>
-            
-        </div>
-    </div>
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-    
-    
-        <div class="card" data-aos="fade-up">
-    <div id="utteranc-container" class="card-content">
-        <script src="https://utteranc.es/client.js"
-                repo="changding1/blog_comment"
-                issue-term="pathname"
-                theme="github-light"
-                crossorigin="anonymous"
-                async>
-        </script>
-    </div>
-</div>
-        
-        
-        
-
-    
-
-    
-
-<article id="prenext-posts" class="prev-next articles">
-    <div class="row article-row">
-        
-        <div class="article col s12 m6" data-aos="fade-up">
-            <div class="article-badge left-badge text-color">
-                <i class="fas fa-chevron-left"></i>&nbsp;上一篇</div>
-            <div class="card">
-                <a href="/2024/12/28/hiddify-for-windows-shi-yong-jiao-cheng/">
-                    <div class="card-image">
-                        
-                        
-                        <img src="/medias/featureimages/6.png" class="responsive-img" alt="Hiddify for Windows 使用教程">
-                        
-                        <span class="card-title">Hiddify for Windows 使用教程</span>
-                    </div>
-                </a>
-                <div class="card-content article-content">
-                    <div class="summary block-with-text">
-                        
-                            Hiddify for Windows
-                        
-                    </div>
-                    <div class="publish-info">
-                        <span class="publish-date">
-                            <i class="far fa-clock fa-fw icon-date"></i>2024 - 12 - 28
-                        </span>
-                        <span class="publish-author">
-                            
-                            <i class="fas fa-bookmark fa-fw icon-category"></i>
-                            
-                            <a href="/categories/%E5%B8%B8%E5%AE%9A%E4%BA%91%E6%9C%BA%E5%9C%BA/" class="post-category">
-                                    常定云机场
-                                </a>
-                            
-                            <a href="/categories/%E5%B8%B8%E5%AE%9A%E4%BA%91%E6%9C%BA%E5%9C%BA/Windows/" class="post-category">
-                                    Windows
-                                </a>
-                            
-                            
-                        </span>
-                    </div>
-                </div>
-                
-                <div class="card-action article-tags">
-                    
-                    <a href="/tags/%E4%BB%A3%E7%90%86%E8%BD%AF%E4%BB%B6/">
-                        <span class="chip bg-color">代理软件</span>
-                    </a>
-                    
-                    <a href="/tags/Windows%E4%BB%A3%E7%90%86%E8%BD%AF%E4%BB%B6%E4%BD%BF%E7%94%A8%E6%95%99%E7%A8%8B/">
-                        <span class="chip bg-color">Windows代理软件使用教程</span>
-                    </a>
-                    
-                </div>
-                
-            </div>
-        </div>
-        
-        
-        <div class="article col s12 m6" data-aos="fade-up">
-            <div class="article-badge right-badge text-color">
-                下一篇&nbsp;<i class="fas fa-chevron-right"></i>
-            </div>
-            <div class="card">
-                <a href="/2024/12/28/nekobox-for-windows-shi-yong-jiao-cheng/">
-                    <div class="card-image">
-                        
-                        
-                        <img src="/medias/featureimages/24.png" class="responsive-img" alt="Nekobox for Windows 使用教程">
-                        
-                        <span class="card-title">Nekobox for Windows 使用教程</span>
-                    </div>
-                </a>
-                <div class="card-content article-content">
-                    <div class="summary block-with-text">
-                        
-                            Nekobox for Windows
-                        
-                    </div>
-                    <div class="publish-info">
+                        <div class="publish-info">
                             <span class="publish-date">
                                 <i class="far fa-clock fa-fw icon-date"></i>2024 - 12 - 28
                             </span>
-                        <span class="publish-author">
-                            
-                            <i class="fas fa-bookmark fa-fw icon-category"></i>
-                            
-                            <a href="/categories/%E5%B8%B8%E5%AE%9A%E4%BA%91%E6%9C%BA%E5%9C%BA/" class="post-category">
+                            <span class="publish-author">
+                                
+                                <i class="fas fa-bookmark fa-fw icon-category"></i>
+                                
+                                <a href="/categories/%E5%B8%B8%E5%AE%9A%E4%BA%91%E6%9C%BA%E5%9C%BA/" class="post-category">
                                     常定云机场
                                 </a>
-                            
-                            <a href="/categories/%E5%B8%B8%E5%AE%9A%E4%BA%91%E6%9C%BA%E5%9C%BA/Windows/" class="post-category">
-                                    Windows
+                                
+                                <a href="/categories/%E5%B8%B8%E5%AE%9A%E4%BA%91%E6%9C%BA%E5%9C%BA/Mac/" class="post-category">
+                                    Mac
                                 </a>
-                            
-                            
-                        </span>
+                                
+                                
+                            </span>
+                        </div>
                     </div>
+
+                    
+                    <div class="card-action article-tags">
+                        
+                        <a href="/tags/%E4%BB%A3%E7%90%86%E8%BD%AF%E4%BB%B6/">
+                            <span class="chip bg-color">代理软件</span>
+                        </a>
+                        
+                        <a href="/tags/Mac%E4%BB%A3%E7%90%86%E8%BD%AF%E4%BB%B6%E4%B8%8B%E8%BD%BD/">
+                            <span class="chip bg-color">Mac代理软件下载</span>
+                        </a>
+                        
+                    </div>
+                    
                 </div>
-                
-                <div class="card-action article-tags">
-                    
-                    <a href="/tags/%E4%BB%A3%E7%90%86%E8%BD%AF%E4%BB%B6/">
-                        <span class="chip bg-color">代理软件</span>
-                    </a>
-                    
-                    <a href="/tags/Windows%E4%BB%A3%E7%90%86%E8%BD%AF%E4%BB%B6%E4%BD%BF%E7%94%A8%E6%95%99%E7%A8%8B/">
-                        <span class="chip bg-color">Windows代理软件使用教程</span>
-                    </a>
-                    
-                </div>
-                
             </div>
+            
         </div>
-        
-    </div>
-</article>
-
-</div>
-
-
-<script>
-    $('#articleContent').on('copy', function (e) {
-        // IE8 or earlier browser is 'undefined'
-        if (typeof window.getSelection === 'undefined') return;
-
-        var selection = window.getSelection();
-        // if the selection is short let's not annoy our users.
-        if (('' + selection).length < Number.parseInt('120')) {
-            return;
-        }
-
-        // create a div outside of the visible area and fill it with the selected text.
-        var bodyElement = document.getElementsByTagName('body')[0];
-        var newdiv = document.createElement('div');
-        newdiv.style.position = 'absolute';
-        newdiv.style.left = '-99999px';
-        bodyElement.appendChild(newdiv);
-        newdiv.appendChild(selection.getRangeAt(0).cloneContents());
-
-        // we need a <pre> tag workaround.
-        // otherwise the text inside "pre" loses all the line breaks!
-        if (selection.getRangeAt(0).commonAncestorContainer.nodeName === 'PRE' || selection.getRangeAt(0).commonAncestorContainer.nodeName === 'CODE') {
-            newdiv.innerHTML = "<pre>" + newdiv.innerHTML + "</pre>";
-        }
-
-        var url = document.location.href;
-        newdiv.innerHTML += '<br />'
-            + '来源: 常定云のblog<br />'
-            + '文章作者: 常定云<br />'
-            + '文章链接: <a href="' + url + '">' + url + '</a><br />'
-            + '本文章著作权归作者所有，任何形式的转载都请注明出处。';
-
-        selection.selectAllChildren(newdiv);
-        window.setTimeout(function () {bodyElement.removeChild(newdiv);}, 200);
-    });
-</script>
-
-
-<!-- 代码块功能依赖 -->
-<script type="text/javascript" src="/libs/codeBlock/codeBlockFuction.js"></script>
-
-
-  <!-- 是否加载使用自带的 prismjs. -->
-  <script type="text/javascript" src="/libs/prism/prism.min.js"></script>
-
-
-<!-- 代码语言 -->
-
-<script type="text/javascript" src="/libs/codeBlock/codeLang.js"></script>
-
-
-<!-- 代码块复制 -->
-
-<script type="text/javascript" src="/libs/codeBlock/codeCopy.js"></script>
-
-
-<!-- 代码块收缩 -->
-
-<script type="text/javascript" src="/libs/codeBlock/codeShrink.js"></script>
-
-
-
-    
-
+    </article>
 </main>
 
 
